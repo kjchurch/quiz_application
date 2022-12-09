@@ -54,7 +54,7 @@ function getQuestions() {
 
         // Start CountDown  (timer)
         clearInterval(countdownInterval);
-        countdown(10, qcount);
+        countdown(15, qcount);
 
         // show results
         showResults(qcount);
